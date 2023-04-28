@@ -56,6 +56,11 @@ nav {
 .text-a-base {
   color: var(--medium-gray);
   font-weight: medium;
+  transition: 0.4s ease-in-out;
+}
+
+.text-a-base:hover {
+  color: var(--red-color);
 }
 
 #nav-itens {
@@ -148,4 +153,37 @@ nav {
 .article-text {
   margin-top: 1rem;
   color: var(--medium-gray);
+}
+
+/* Section Open Positions */
+
+#open-positions {
+  padding-top: 6rem;
+  text-align: center;
+}
+
+#open-positions-subtitle {
+  font-size: 0.75rem;
+  width: 8rem;
+  margin: auto;
+  background-color: var(--red-color-faded);
+  border-radius: 16px;
+  padding: 0.25rem 0.75rem;
+  margin-bottom: 1rem;
+}
+
+#open-positions-title {
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+#open-positions-text {
+  font-size: 1.25rem;
+}
+
+#photo {
+  width: 76rem;
+  height: 25rem;
+  margin: 4rem auto;
 }
